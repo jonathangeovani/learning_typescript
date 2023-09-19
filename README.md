@@ -1,4 +1,4 @@
-<img src="./img/typescript_logo.png" width="40px" align="left" style="margin-right:10px"/>
+<img src="./img/typescript_logo.png" align="right" width="60px"/>
 
 # Typescript Exercises
 
