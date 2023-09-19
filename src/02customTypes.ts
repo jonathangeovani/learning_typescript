@@ -16,7 +16,8 @@ const dog: Animal = {   // Must implement all the properties from Animal
 
 // Custom types in Arrow Functions
 const printAnimal = (animal: Animal) => {
-    console.log(animal.name, animal.age);
+    const legs = (animal.legs !== undefined ? animal.legs : 0) + 2; // Check if animal.legs is undefined and handles a possible error
+    console.log(animal.name, animal.age, legs);
 }
 
 printAnimal(dog);       // Works totally fine since "dog" has all the fields of "Animal"
